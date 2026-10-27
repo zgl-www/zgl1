@@ -9,7 +9,7 @@ int main()
 // p notation: 0x1.01p+6
     float a=64.25;
     printf("fixed-point notation:%f\n",a);
-    printf("fixed-point notation:%e\n",a);
-    printf("fixed-point notation:%a\n",a);
+    printf("exponential notation:%e\n",a);
+    printf("p notation:%a\n",a);
     return 0;
 }
